@@ -45,16 +45,16 @@ public class Controller {
 
         System.out.printf("Average SP500:\t %-10.2f \n", Aver);
         
-        // SP500 value
-        
+      //To calculate the Variance of the data
+      
         double Var = Analyzer.variance(data.getSp500Data());
         
         System.out.printf("Variance SP500:\t %-10.2f \n", Var);
 
         
  
-        // calculate the variance  of the data's 
-        // SP500 values
+        //To calculate the Standard Deviation of the data
+      
         double stdDev = Analyzer.standardDeviation(data.getSp500Data());
        System.out.printf("Std Dev SP 500:\t %-10.2f \n",stdDev); 
 
